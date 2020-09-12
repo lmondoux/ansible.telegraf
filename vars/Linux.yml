@@ -20,7 +20,6 @@ telegraf_inputs_default:
       - ignore_fs = ["tmpfs", "devtmpfs"]
   - input: io
   - input: mem
-  - input: net
   - input: system
   - input: swap
   - input: netstat
